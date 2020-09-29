@@ -6,7 +6,6 @@ export const ParentOne = ({ children }) => {
 	console.log("ParentOne Render")
 	return (
 		<div>
-			<h3>Parent One Child One</h3>
 			<button onClick={() => setCount(c => c + 1)}>Count - {count}</button>
 			{children}
 		</div>
