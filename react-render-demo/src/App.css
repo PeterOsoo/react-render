@@ -1,3 +1,17 @@
 .App {
   text-align: center;
+  padding-bottom: 6rem;
+}
+
+h1 {
+  color: rgb(240, 97, 97);
+  font-size: 3rem;
+}
+
+h2 {
+  color: darkslategrey;
+}
+
+h3 {
+  color: darkslategrey;
 }
