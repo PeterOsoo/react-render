@@ -3,6 +3,7 @@ import "./App.css"
 import { UseState } from "./components/UseState/UseState"
 import { UseReducer } from "./components/UseReducer/UseReducer"
 import { Parent } from "./components/Parent Child/Parent"
+import ParentChildOne from "./components/Optimazation/ParentChildOne"
 
 const App = () => {
 	return (
@@ -11,6 +12,7 @@ const App = () => {
 			<UseState />
 			<UseReducer />
 			<Parent />
+			<ParentChildOne />
 		</div>
 	)
 }
