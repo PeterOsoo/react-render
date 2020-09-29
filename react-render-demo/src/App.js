@@ -5,6 +5,7 @@ import { UseReducer } from "./components/UseReducer/UseReducer"
 import { Parent } from "./components/Parent Child/Parent"
 import ParentChildOne from "./components/Optimization/ParentChildOne"
 import { GrandParent } from "./components/Optimization/GrandParent"
+import { ParentTwo } from "./components/Optimization/ParentTwo"
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 			<Parent />
 			<ParentChildOne />
 			<GrandParent />
+			<ParentTwo />
 		</div>
 	)
 }
