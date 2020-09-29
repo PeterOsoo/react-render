@@ -1,18 +1,18 @@
 import React, { useState } from "react"
-import { ChildTwo } from "./ChildTwo"
+import { MemoizedChildThree } from "./ChildThree"
 
-export const ParentTwo = () => {
+export const ParentThree = () => {
 	const [count, setCount] = useState(0)
 	const [name, setName] = useState("Ondiek")
 
-	console.log("ParentTwo Render")
+	console.log("ParentThree Render")
 
 	return (
 		<div>
-			<h3>Parent Two Child Two - without React memo</h3>
+			<h3>Parent Three Child Three - React memo </h3>
 			<button onClick={() => setName("Rabet")}>Change name</button>
 			<button onClick={() => setCount(c => c + 1)}>Count - {count}</button>
-			<ChildTwo name={name} />
+			<MemoizedChildThree name={name} />
 		</div>
 	)
 }
