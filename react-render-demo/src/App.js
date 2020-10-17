@@ -6,18 +6,19 @@ import { Parent } from "./components/Parent Child/Parent"
 import ParentChildOne from "./components/Optimization/ParentChildOne"
 import { GrandParent } from "./components/Optimization/GrandParent"
 import { ParentTwo } from "./components/Optimization/ParentTwo"
-import { ParentThree } from "./components/Optimization/ParentThree"
+// import { ParentThree } from "./components/Optimization/ParentThree"
+import { ParentThree } from "./components/IncorrectOptimization/ParentThree"
 
 const App = () => {
 	return (
 		<div className="App">
 			<h1>React Render</h1>
-			<UseState />
+			{/* <UseState />
 			<UseReducer />
 			<Parent />
 			<ParentChildOne />
 			<GrandParent />
-			<ParentTwo />
+			<ParentTwo /> */}
 			<ParentThree />
 		</div>
 	)
