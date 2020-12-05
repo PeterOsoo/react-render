@@ -8,6 +8,7 @@ import { GrandParent } from "./components/Optimization/GrandParent"
 import { ParentTwo } from "./components/Optimization/ParentTwo"
 // import { ParentThree } from "./components/Optimization/ParentThree"
 import { ParentThree } from "./components/IncorrectOptimization/ParentThree"
+import { ParentFour } from "./components/IncorrectOptimization/ParentFour"
 
 import ImmutableState from "./components/Immutable State/ImmutableState"
 
@@ -22,7 +23,9 @@ const App = () => {
 			<GrandParent />
 			<ParentTwo /> */}
 			{/* <ParentThree /> */}
-			<ImmutableState />
+			{/* <ImmutableState /> */}
+
+			<ParentFour />
 		</div>
 	)
 }
