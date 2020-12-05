@@ -11,6 +11,7 @@ import { ParentThree } from "./components/IncorrectOptimization/ParentThree"
 import { ObjectUseState } from "./components/Immutable State/ObjectUseState"
 import { ArrayUseState } from "./components/Immutable State/ArrayUseState"
 import { ObjectUseReducer } from "./components/Immutable State/ObjectUseReducer"
+import { ArrayUseReducer } from "./components/Immutable State/ArrayUseReducer"
 
 const App = () => {
 	return (
@@ -27,8 +28,9 @@ const App = () => {
 			<br />
 			<ArrayUseState />
 			<br />
-
 			<ObjectUseReducer />
+			<br />
+			<ArrayUseReducer />
 		</div>
 	)
 }
