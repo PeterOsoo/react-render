@@ -2,6 +2,7 @@ import React from "react"
 import "./App.css"
 
 import { ContextParent } from "./components/Context/ContextParent"
+import { ChildA } from "./components/Context/ContextChildren"
 
 const App = () => {
 	return (
@@ -18,7 +19,9 @@ const App = () => {
 
 			{/* <ParentFour /> */}
 
-			<ContextParent />
+			<ContextParent>
+				<ChildA />
+			</ContextParent>
 		</div>
 	)
 }
