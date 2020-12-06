@@ -1,16 +1,7 @@
 import React from "react"
 import "./App.css"
-import { UseState } from "./components/UseState/UseState"
-import { UseReducer } from "./components/UseReducer/UseReducer"
-import { Parent } from "./components/Parent Child/Parent"
-import ParentChildOne from "./components/Optimization/ParentChildOne"
-import { GrandParent } from "./components/Optimization/GrandParent"
-import { ParentTwo } from "./components/Optimization/ParentTwo"
-// import { ParentThree } from "./components/Optimization/ParentThree"
-import { ParentThree } from "./components/IncorrectOptimization/ParentThree"
-import { ParentFour } from "./components/IncorrectOptimization/ParentFour"
 
-import ImmutableState from "./components/Immutable State/ImmutableState"
+import { ContextParent } from "./components/Context/ContextParent"
 
 const App = () => {
 	return (
@@ -25,7 +16,9 @@ const App = () => {
 			{/* <ParentThree /> */}
 			{/* <ImmutableState /> */}
 
-			<ParentFour />
+			{/* <ParentFour /> */}
+
+			<ContextParent />
 		</div>
 	)
 }
